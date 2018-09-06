@@ -1,0 +1,31 @@
+#navbar {
+    width: 100%;
+	margin: auto;
+	text-align: left;
+    background-color: black;
+}
+
+#navbar ul {
+	list-style-type: none;
+    margin:0;
+	font-size: 17px;
+    text-align: left;
+}
+
+#navbar ul li {
+	display: inline-block;
+}
+
+#navbar ul li a{
+    color: #ccc;
+    display: block;
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+    #navbar ul li a:hover {
+    color: #099;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
