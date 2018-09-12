@@ -5,31 +5,37 @@ body{
 }
 
 nav{
-    background: rgba(0,0,0,.8);
-    height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background: rgba(0,0,0,.9);
     width: 100%;
-    height: 100px;
-    padding: 5px 25px;
+    float: right;
+    height: auto;
+    padding-left: 170px;
     box-sizing: border-box;
-    transition: 0.3s;    
+    transition: 0.3s;
+    margin-bottom: 200px;
 }
 
-nav .logo{
+.logo{
     background: url('media/logo.png');
     background-size: cover;
+    margin: 10px 25px;
     padding: 0px 0px;
     height: 193px;
     width: 150px;
     float: left;
-    transition: 0.3s;
+    transition: height 0.3s, width 0.3s ease;
+    z-index: +1;
+    position:fixed;
+}
+
+.logosmall{
+    height: 96px;
+    width: 75px;
 }
 
 nav ul{
     list-style-type: none;
-    float: right;
+    float: left;
     margin: 0;
     padding: 0;
 }
@@ -42,13 +48,14 @@ nav ul li{
 nav ul li a{
     color: #151515;
     padding: 0px 30px;
-    margin-top: 37px;
+    margin-top: 27px;
+    margin-bottom: 27px;
     text-transform: uppercase;
     transition: 0.3s;
     color: #ccc;
     display: block;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -56,7 +63,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-section.sec1{
+section.background{
     width: 100%;
     height: 100vh;
     background: url(media/img1.jpg);
@@ -64,7 +71,19 @@ section.sec1{
     background-position: center;
 }
 
+div.content{
+    margin-top: 300px;
+    position: relative;
+    margin-top: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black;
+}
 
-
-
+div.content h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
 
