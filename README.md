@@ -1,6 +1,7 @@
 # HonkinHifi Webiste
 
-HonkinHifi Website for a freinds Sound System as a Personal Project.
+Project for HonkinHifi, a freinds sound-system website.
+Personal Project.
 
 ## Contributers
 
