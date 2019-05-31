@@ -1,12 +1,16 @@
-body, html{
+html{
+  background-image: url(media/woodbackground.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+body{
     margin: 0;
-    padding: 0;
+    padding-left: 15%;
+    padding-right: 15%;
     font-family: "Lato", sans-serif;
-    background-image: url(media/woodbackground.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
     z-index: auto;
 }
 
@@ -201,9 +205,16 @@ footer .footer-cols ul li a{
   color: #A9A9A9;
 }
 
+.infobigjim{
+  text-align: center;
+  padding: 0 110px 50px 110px;
+  min-height: 200px;
+  color: #A9A9A9;
+}
+
 .pimg1{
   position: static;
-  background-image: url(/Media/Logoskybackground.jpg);
+  background-image: url(/Media/boys.jpg);
   background-position: center;
   min-width: 100%;
   min-height: 66vh;
@@ -221,6 +232,12 @@ footer .footer-cols ul li a{
 
 .pimg4{
   min-height: 400px;
+  background-image: url(/Media/bob1.jpg);
+  background-size: cover;
+}
+
+.pimg5{
+  min-height: 400px;
   background-image: url(/Media/bob.jpg);
   background-size: cover;
 }
@@ -230,4 +247,8 @@ footer .footer-cols ul li a{
   font-family: "Lato", sans-serif;
   color: #666;
   font-weight: 400;
+}
+
+
+.spacer{
 }
