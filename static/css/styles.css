@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-size: 100%;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    line-height: 26px;
+    line-height: 1.625rem;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.header{
+    height: 230px;
+    background-color: rgba(0,0,0,0.98);
+    background-image: url(/static/media/Logoskybackground1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #87cef2;
+    background-size: contain;
+}
+
+.nav-bar{
+    background-color: rgba(51, 51, 51, 0.9);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+    padding-inline-start: 0;
+}
+
+.nav-bar li{
+    margin-top: 0;
+}
+
+.nav-bar li a{
+    display: block;
+    color: white;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-bar li a:hover{
+    color: #8ed1f0;
+}
+
+.logo{
+    background: url(/static/media/logo.png);
+    background-size: cover;
+    margin: -250px 25px;
+    padding: 0;
+    z-index: +2;
+    height: 193px;
+    width: 150px;
+    float: left;
+    position: fixed;
+    transition: 0.4s ease;
+}
+
+.logosmall{
+    height: 138px;
+    width: 110px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+    min-width: 600px;
+    background-color: white;
+}
+
+.home-layout{
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+}
+
+.panel1-box{
+    margin-top: 150px;
+    grid-column: 2 / 5;
+
+}
+
+.content-box{
+    border: 1px solid #999;
+    padding: 1rem;
+    border-radius: 3px;
+    position: relative;
+}
